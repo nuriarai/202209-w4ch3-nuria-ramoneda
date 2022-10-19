@@ -1,3 +1,4 @@
+import "./Key.css";
 interface KeyProps {
   text: string;
   className: string;
