@@ -1,4 +1,3 @@
-import "./App.css";
 import KeyBoard from "../Keyboard/Keyboard";
 import Actions from "../Actions/Actions";
 
