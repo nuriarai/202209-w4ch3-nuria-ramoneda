@@ -8,10 +8,10 @@ const Actions = (): JSX.Element => {
   return (
     <div className="actions">
       <Display numbers={displayNumbers.join("")} />
-      <a href="#" className="call">
+      <a href="/" className="call">
         Call
       </a>
-      <a href="#" className="hang active">
+      <a href="/" className="hang active">
         Hang
       </a>
     </div>
