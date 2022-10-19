@@ -15,14 +15,11 @@ const PhoneContextProvider = ({
       return;
     }
     setDisplayNumbers([...displayNumbers, number]);
-    console.log(displayNumbers);
   };
 
   const removeNumbersDisplay = (number: string): void => {
     displayNumbers.pop();
     setDisplayNumbers(displayNumbers);
-    console.log("remove number");
-    console.log(displayNumbers);
   };
 
   return (
