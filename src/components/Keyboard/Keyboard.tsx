@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import PhoneContext from "../../contexts/phone/PhoneContext";
-import Key from "../Key/Key";
+import Key from "./Key/Key";
 
 const KeyBoard = (): JSX.Element => {
   const { getKeyboardNumbers, removeNumbersDisplay } = useContext(PhoneContext);
