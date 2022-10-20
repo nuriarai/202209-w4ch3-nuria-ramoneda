@@ -16,7 +16,7 @@ describe("Given a Keyboard component", () => {
         name: expectedTextDeleted,
       });
 
-      expect(keys.length).toBe(expectedNumberOfKeys);
+      expect(keys).toHaveLength(expectedNumberOfKeys);
       expect(keyDelete).toBeInTheDocument();
     });
   });
