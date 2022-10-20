@@ -1,8 +1,8 @@
 import { useContext } from "react";
-import PhoneContext from "../../contexts/phone/PhoneContext";
-import Key from "./Key/Key";
+import { PhoneContext } from "../../contexts/phone/PhoneContext";
+import Key from "../Key/Key";
 
-const KeyBoard = (): JSX.Element => {
+const Keyboard = (): JSX.Element => {
   const { getKeyboardNumbers, removeNumbersDisplay } = useContext(PhoneContext);
   const phoneKeys = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"];
 
@@ -36,4 +36,4 @@ const KeyBoard = (): JSX.Element => {
   );
 };
 
-export default KeyBoard;
+export default Keyboard;

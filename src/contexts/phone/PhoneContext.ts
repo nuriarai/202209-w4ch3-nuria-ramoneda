@@ -1,13 +1,11 @@
 import { createContext } from "react";
 
-interface PhoneContextStructure {
+export interface PhoneContextStructure {
   displayNumbers: string[];
   getKeyboardNumbers: (number: string) => void;
   removeNumbersDisplay: (number: string) => void;
 }
 
-const PhoneContext = createContext<PhoneContextStructure>(
+export const PhoneContext = createContext<PhoneContextStructure>(
   {} as PhoneContextStructure
 );
-
-export default PhoneContext;
