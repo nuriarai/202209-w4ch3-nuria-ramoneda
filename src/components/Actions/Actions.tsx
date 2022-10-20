@@ -1,6 +1,6 @@
 import { useContext } from "react";
-import PhoneContext from "../../contexts/phone/PhoneContext";
-import Display from "./Display/Display";
+import { PhoneContext } from "../../contexts/phone/PhoneContext";
+import Display from "../Display/Display";
 
 const Actions = (): JSX.Element => {
   const { displayNumbers } = useContext(PhoneContext);

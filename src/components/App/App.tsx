@@ -1,4 +1,4 @@
-import KeyBoard from "../Keyboard/Keyboard";
+import Keyboard from "../Keyboard/Keyboard";
 import Actions from "../Actions/Actions";
 
 function App() {
@@ -6,7 +6,7 @@ function App() {
     <div className="container">
       <span className="message off">Calling...</span>
       <main className="phone">
-        <KeyBoard />
+        <Keyboard />
         <Actions />
       </main>
     </div>

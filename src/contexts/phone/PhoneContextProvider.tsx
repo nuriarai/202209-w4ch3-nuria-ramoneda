@@ -1,5 +1,5 @@
 import { useState } from "react";
-import PhoneContext from "./PhoneContext";
+import { PhoneContext } from "./PhoneContext";
 
 interface PhoneContextProviderProps {
   children: JSX.Element | JSX.Element[];
